@@ -1,0 +1,76 @@
+body {
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.2rem; /* ✅ 추가 */
+  padding: 2rem;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container {
+
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative; /* 링크 기준 잡기 */
+}
+
+.links {
+  width: 100%;
+  text-align: right;
+}
+.links a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;    /* ✅ 넉넉한 클릭 범위 */
+  color: #89abe3;
+  background-color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.links a:hover {
+  cursor: pointer;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #89abe3;
+  padding-bottom: 0.3rem;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.course-button {
+  padding: 0.75rem 1.2rem;
+  background-color: #eaf0ff;
+  color: #406bcf;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 1px solid #c0d3ff;
+  transition: background 0.2s ease;
+}
+
+.course-button:hover {
+  background-color: #d4e3ff;
+}

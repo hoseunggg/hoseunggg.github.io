@@ -1,0 +1,40 @@
+name: Hoseung
+links:
+  - label: Home
+    href: "home.html"
+  - label: Study
+    href: "study.html"
+  - label: LinkedIn
+    href: "#"
+
+description: 
+  I’m Hoseung Kang, a third-year undergraduate at Sungkyunkwan University, majoring in Computer Science, Economics, and Mechanical Engineering. My academic interests span across systems, machine learning, and optimization, and I am currently exploring research directions that align with these areas.
+
+education:
+  - title: B.S. in Mechatronics Engineering, Economics, Software Engineering
+    institution: Sungkyunkwan University
+    period: Mar 2021 – Present (expected to graduate in Aug 2026)
+
+scholarships:
+  - year: 2025 – Present
+    text: <strong>Presidential Science Scholarship</strong> (Undergraduate track)
+  - year: 2021 – 2024
+    text: <strong>SeAH Haeam Scholarship</strong>
+  - year: 2021
+    text: <strong>Academic Excellence Scholarship</strong>
+
+research:
+  - title: Bitcoin Forecasting via Machine Learning
+    lab: Finance Lab, SKKU
+    period: Mar 2025 – Jun 2025
+    description: Deep learning-based time series modeling for cryptocurrency market prediction
+
+  - title: Autonomous Drone Simulation
+    lab: RISE Lab, SKKU
+    period: Mar 2022 – Dec 2022
+    description: Developed reinforcement learning agents for autonomous UAV navigation in simulation
+
+  - title: Lidar Sensor Error Analysis
+    lab: RISE Lab, SKKU
+    period: Jun 2022 – Aug 2022
+    description: Investigated error propagation and measurement accuracy of low-cost lidar sensors

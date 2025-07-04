@@ -1,0 +1,30 @@
+
+description:
+  This site contains notes from personal studies conducted during my free time.  
+  After exploring various fields, I realized mathematics suits me best.  
+  Now, I'm organizing concepts primarily related to math, computer science.
+links:
+  - label: Home
+    href: "home.html"
+  - label: Study
+    href: "study.html"
+  - label: LinkedIn
+    href: "#"
+
+
+fields:
+  - major: Computer Science
+    courses:
+      - name: Operating Systems
+        file: "pdfs/cs/os.pdf"
+      - name: AI Ethics
+        file: "pdfs/cs/ai_ethics.pdf"
+      - name: Computer Vision
+        file: "pdfs/cs/vision.pdf"
+
+  - major: Statistics
+    courses:
+      - name: Probability
+        file: "pdfs/stats/probability.pdf"
+      - name: Statistical Inference
+        file: "pdfs/stats/inference.pdf"
