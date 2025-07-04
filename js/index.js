@@ -1,4 +1,4 @@
-fetch('yml/home.yml')
+fetch('yml/index.yml')
   .then(res => res.text())
   .then(text => {
     const data = jsyaml.load(text);
