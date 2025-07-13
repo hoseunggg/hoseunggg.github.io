@@ -13,14 +13,12 @@ links:
 
 
 fields:
-  - major: Computer Science
+  - major: mathematics
     courses:
-      - name: Operating Systems
-        file: "pdfs/cs/os.pdf"
-      - name: AI Ethics
-        file: "pdfs/cs/ai_ethics.pdf"
-      - name: Computer Vision
-        file: "pdfs/cs/vision.pdf"
+      - name: Calculus
+        file: "pdf/caculus.pdf"
+      - name: Differential Equation
+        file: "pdf/differential_equation.pdf"
 
   - major: Statistics
     courses:
