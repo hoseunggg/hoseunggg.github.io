@@ -16,7 +16,7 @@ fields:
   - major: mathematics
     courses:
       - name: Calculus
-        file: "pdf/caculus.pdf"
+        file: "pdf/calculus.pdf"
       - name: Differential Equation
         file: "pdf/differential_equation.pdf"
 
