@@ -20,9 +20,7 @@ fields:
       - name: Differential Equation
         file: "pdf/differential_equation.pdf"
 
-  - major: Statistics
+  - major: Economics
     courses:
-      - name: Probability
-        file: "pdfs/stats/probability.pdf"
-      - name: Statistical Inference
-        file: "pdfs/stats/inference.pdf"
+      - name: Portfolio Optimization
+        file: "pdf/portfolio_optimization.pdf"
