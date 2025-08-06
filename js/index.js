@@ -16,6 +16,27 @@ fetch('yml/index.yml')
       linksDiv.appendChild(a);
     });
 
+    // === 여기서 다크 모드 토글 버튼 추가 ===
+    const themeToggle = document.createElement('button');
+    themeToggle.textContent = 'White/Dark';
+    themeToggle.id = 'theme-toggle';
+    linksDiv.appendChild(themeToggle); // .links 안에 버튼 넣기
+
+    // 저장된 테마 불러오기
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.classList.add(savedTheme);
+
+    // 버튼 클릭 시 테마 전환
+    themeToggle.addEventListener('click', () => {
+      if (document.body.classList.contains('light')) {
+        document.body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
     // 업데이트
     const updatesList = document.getElementById('updates');
     data.updates?.forEach(item => {

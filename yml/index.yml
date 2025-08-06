@@ -2,16 +2,15 @@ name: Hoseung
 links:
   - label: Home
     href: "index.html"
-  - label: Study
-    href: "study.html"
-  - label: LinkedIn
-    href: "#"
+  - label: Github
+    href: "https://github.com/hoseunggg"
+  - label: Email
+    href: "mailto:hoseunggg@gmail.com"
 
 description: 
-  I’m Hoseung Kang, a third-year undergraduate at Sungkyunkwan University, majoring in Computer Science, Economics, and Mechanical Engineering. My academic interests span across systems, machine learning, and optimization, and I am currently exploring research directions that align with these areas.
-
+ I’m a third-year undergraduate at Sungkyunkwan University, eager to broaden my knowledge and discover my academic direction.
 education:
-  - title: B.S. in Mechatronics Engineering, Economics, Software Engineering
+  - title: B.S. in Mechatronics Engineering<br> B.S. in Economics<br> B.S. in Software Engineering
     institution: Sungkyunkwan University
     period: Mar 2021 – Present (expected to graduate in Aug 2026)
 
@@ -27,7 +26,7 @@ research:
   - title: Bitcoin Forecasting via Machine Learning
     lab: Finance Lab, SKKU
     period: Mar 2025 – Jun 2025
-    description: Deep learning-based time series modeling for cryptocurrency market prediction
+    description: Empirical analysis of Bitcoin return prediction using machine learning models with on-chain data
 
   - title: Autonomous Drone Simulation
     lab: RISE Lab, SKKU

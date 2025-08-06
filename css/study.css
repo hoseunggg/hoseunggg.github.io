@@ -20,17 +20,16 @@ body {
   width: 100%;
   text-align: right;
 }
+
 .links a {
   display: inline-block;
-  padding: 0.6rem 1.2rem;    /* ✅ 넉넉한 클릭 범위 */
+  padding: 0.6rem 1.2rem;
   color: #89abe3;
   background-color: white;
   border-radius: 6px;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
 .links a:hover {

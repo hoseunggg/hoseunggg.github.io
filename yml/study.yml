@@ -1,16 +1,13 @@
 
 description:
-  This site contains notes from personal studies conducted during my free time.  
-  After exploring various fields, I realized mathematics suits me best.  
-  Now, I'm organizing concepts primarily related to math, computer science.
+  I’m working from the ground up to build a coherent set of notes on core topics such as calculus, linear algebra, and probability, which will serve as a base for further study and exploration.
 links:
   - label: Home
     href: "index.html"
-  - label: Study
-    href: "study.html"
-  - label: LinkedIn
-    href: "#"
-
+  - label: Github
+    href: "https://github.com/hoseunggg"
+  - label: Email
+    href: "mailto:hoseunggg@gmail.com"
 
 fields:
   - major: mathematics
@@ -19,7 +16,9 @@ fields:
         file: "pdf/calculus.pdf"
       - name: Differential Equation
         file: "pdf/differential_equation.pdf"
-
+      - name: Linear algebra
+        file: "pdf/differential_equation.pdf"
+        
   - major: Economics
     courses:
       - name: Portfolio Optimization
