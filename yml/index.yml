@@ -1,39 +1,104 @@
-name: Hoseung
+name: 강호승
 links:
   - label: Home
     href: "index.html"
+  - label: CV
+    href: "pdf/cv.pdf"
   - label: Github
     href: "https://github.com/hoseunggg"
   - label: Email
     href: "mailto:hoseunggg@gmail.com"
 
+badges:
+  - name: Python
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  - name: C++
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+  - name: SQL
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+
+boj:
+  name: Algorithms
+  href: "https://solved.ac/rkdghtmd"
+  img: "https://solvedac-readme-badge.vercel.app/api/v1/badge?user=rkdghtmd&theme=github-white&back_color=#9CA3AF&common_color=111827"
+  
+
 description: 
- I’m a third-year undergraduate at Sungkyunkwan University, eager to broaden my knowledge and discover my academic direction.
+ 성균관대학교 3학년 재학 중이며, 데이터 관련 직무로 개발자 커리어를 준비하고 있습니다.
 education:
   - title: B.S. in Mechatronics Engineering<br> B.S. in Economics<br> B.S. in Software Engineering
     institution: Sungkyunkwan University
-    period: Mar 2021 – Present (expected to graduate in Aug 2026)
+    period: Mar 2021 – Present
 
-scholarships:
+
+honors:
   - year: 2025 – Present
-    text: <strong>Presidential Science Scholarship</strong> (Undergraduate track)
+    text: <strong>대통령과학장학금</strong> <a class="muted-link" href="https://eng.skku.edu/skku/research/industry/StudentChallenge_view.do?mode=view&articleNo=129571&article.offset=9&articleLimit=9" target="_blank" rel="noreferrer">(관련 기사)</a>
+
+  - year: 2025
+    text: <strong>Dean's List</strong> 
+
+  - year: 2025
+    text: <strong>정천초등학교장 표창장</strong>
+
   - year: 2021 – 2024
-    text: <strong>SeAH Haeam Scholarship</strong>
+    text: <strong>세아해암학술장학금</strong>
+
+  - year: 2022
+    text: <strong>정보통신평가원장상</strong> <a class="muted-link" href="https://rise.skku.edu/news/itrc-workshop-2022-%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%ED%9A%8D%ED%8F%89%EA%B0%80%EC%9B%90%EC%9E%A5%EC%83%81/" target="_blank" rel="noreferrer">(관련 기사)</a>
+
   - year: 2021
-    text: <strong>Academic Excellence Scholarship</strong>
+    text: <strong>성적우수장학금</strong>
 
-research:
-  - title: Bitcoin Forecasting via Machine Learning
-    lab: Finance Lab, SKKU
-    period: Mar 2025 – Jun 2025
-    description: Empirical analysis of Bitcoin return prediction using machine learning models with on-chain data
+projects:
+  - title: 비트코인 온체인 데이터 수집·정제 및 머신러닝 예측
+    description: 온체인/거시 데이터 수집·정제 후 피처 엔지니어링 및 모델 성능 비교, SHAP 기반 중요 변수 분석.
+    tags: [Pytorch, Pandas, ML, Time-series]
+    links:
+      - label: GitHub
+        href: "https://github.com/..."
+      - label: Paper
+        href: "pdf/project1.pdf"
 
-  - title: Autonomous Drone Simulation
-    lab: RISE Lab, SKKU
-    period: Mar 2022 – Dec 2022
-    description: Developed reinforcement learning agents for autonomous UAV navigation in simulation
+  - title: 데이트 코스 추천 AI 서비스 (데이터 구축/정제)
+    description: 지도/장소/이미지 데이터 크롤링·정제 및 DB 적재, 품질 기준 기반 이미지 필터링 파이프라인 구성.
+    tags: [Selenium, MySQL, Crawling, API]
+    links:
+      - label: GitHub
+        href: "https://github.com/..."
 
-  - title: Lidar Sensor Error Analysis
-    lab: RISE Lab, SKKU
-    period: Jun 2022 – Aug 2022
-    description: Investigated error propagation and measurement accuracy of low-cost lidar sensors
+  - title: LiDAR 데이터 분석 및 오차 보정
+    description: 거리/각도 조건별 오차 분포 분석 및 통계 검정 기반 노이즈 특성 확인.
+    tags: [Python, Statistics, LiDAR]
+    links:
+      - label: Report
+        href: "https://github.com/..."
+
+skills:
+  - group: Data Engineering
+    items: [ETL, Data Pipeline, SQL, Airflow]
+  - group: Backend
+    items: [FastAPI, REST API, Docker]
+  - group: Data/ML
+    items: [Pandas, Scikit-learn, Time-series]
+  - group: Cloud/DB
+    items: [AWS, MySQL, PostgreSQL]
+
+
+
+
+# research:
+#   - title: Bitcoin Forecasting via Machine Learning
+#     lab: Finance Lab, SKKU
+#     period: Mar 2025 – Jun 2025
+#     description: Empirical analysis of Bitcoin return prediction using machine learning models with on-chain data
+
+#   - title: Autonomous Drone Simulation
+#     lab: RISE Lab, SKKU
+#     period: Mar 2022 – Dec 2022
+#     description: Developed reinforcement learning agents for autonomous UAV navigation in simulation
+
+#   - title: Lidar Sensor Error Analysis
+#     lab: RISE Lab, SKKU
+#     period: Jun 2022 – Aug 2022
+#     description: Investigated error propagation and measurement accuracy of low-cost lidar sensors
